@@ -1,8 +1,10 @@
 •	Pre-Requisite for the solution :
-	Create EC2 Instance (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html )
-	Install Python and git
-	Install pipenv
-	Install project dependencies using                                                 pipenv install
+1)	Create EC2 Instance 
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html 
+2)	Install Python and git
+3)	Install pipenv
+4)	Install project dependencies using  for creating virtual Env        
+                                        pipenv install
 •	SSH to the ECS instance use the link for details : 
 https://www.youtube.com/watch?v=jv-dgOfFN4o
 •	Once you are connected to the EC2 instance copy the script to EC2 instance from git :
