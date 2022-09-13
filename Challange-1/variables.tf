@@ -45,6 +45,12 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
+variable "region" {
+  description = "default region"
+  type        = string
+  default     = "ap-south-1"
+}
+
 #Create database variables
 variable "rds_instance" {
   type = map(any)
