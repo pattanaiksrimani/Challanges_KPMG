@@ -94,10 +94,7 @@ Sample OutPut :
         "profile": "default-hvm",
         "public-hostname": "ec2-18-209-51-214.compute-1.amazonaws.com",
         "public-ipv4": "18.209.51.214",
-        "public-keys": {
-            "0=myserver07": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n <head>\n  <title>404 - Not Found</title>\n </head>\n <body>\n  <h1>/h1>\n </body>\n</html>\n"
-        },
-        "reservation-id": "r-053175f06eefaa07b",
+              "reservation-id": "r-053175f06eefaa07b",
         "security-groups": "launch-wizard-1",
         "services": {
             "domain": "amazonaws.com",
