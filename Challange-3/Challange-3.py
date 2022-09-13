@@ -32,8 +32,8 @@ def getNestedObjValue(obj: dict, key: str, isFound = False):
 
 if __name__ == '__main__':
     obj = {'a': {'b': {'c': 'd'}}}
-    value = getNestedObjValue(obj, 'a')
-    value1 = getNestedObjValue(obj, 'b')
+    #value = getNestedObjValue(obj, 'a')
+    #value1 = getNestedObjValue(obj, 'b')
     value2 = getNestedObjValue(obj, 'c')
 
-    print(value,value1,value2)
+     print("The key a/b/c corresponding value is" ,value2)
