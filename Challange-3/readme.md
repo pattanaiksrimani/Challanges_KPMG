@@ -44,5 +44,6 @@ Copy the code to any instance where python is installed :
 Output/testing of the script :
 ====================================
 [ec2-user@ip-172-31-22-154 ~]$ python3 challange3.py
-d d d
+The key a/b/c corresponding value is d
 [ec2-user@ip-172-31-22-154 ~]$
+
