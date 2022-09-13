@@ -10,13 +10,7 @@ https://www.youtube.com/watch?v=jv-dgOfFN4o
 •	Copy the script to EC2 instance and run it :
 Sample OutPut :
 
-[ec2-user@ip-172-31-22-154 aws_metadata_in_JSON]$ ls -latr
-total 12
--rw-rw-r--. 1 ec2-user ec2-user 1913 Sep 12 20:30 Pipfile.lock
--rw-rw-r--. 1 ec2-user ec2-user  153 Sep 12 20:30 Pipfile
-drwx------. 6 ec2-user ec2-user  173 Sep 13 09:27 ..
--rw-rw-r--. 1 ec2-user ec2-user 1652 Sep 13 12:49 metadata_to_json.py
-drwxrwxr-x. 2 ec2-user ec2-user   68 Sep 13 12:55 .
+
 [ec2-user@ip-172-31-22-154 aws_metadata_in_JSON]$ python3 metadata_to_json.py
 {
     "meta-data": {
@@ -99,7 +93,7 @@ drwxrwxr-x. 2 ec2-user ec2-user   68 Sep 13 12:55 .
         "public-hostname": "ec2-18-209-51-214.compute-1.amazonaws.com",
         "public-ipv4": "18.209.51.214",
         "public-keys": {
-            "0=myserver07": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n <head>\n  <title>404 - Not Found</title>\n </head>\n <body>\n  <h1>404 - Not Found</h1>\n </body>\n</html>\n"
+            "0=myserver07": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n\t\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n <head>\n  <title>404 - Not Found</title>\n </head>\n <body>\n  <h1>/h1>\n </body>\n</html>\n"
         },
         "reservation-id": "r-053175f06eefaa07b",
         "security-groups": "launch-wizard-1",
@@ -109,7 +103,9 @@ drwxrwxr-x. 2 ec2-user ec2-user   68 Sep 13 12:55 .
         }
     }
 }
+
 What key details you like to view ?
+
 local-ipv4s
 ['172.31.22.154']
 [ec2-user@ip-172-31-22-154 aws_metadata_in_JSON]$
